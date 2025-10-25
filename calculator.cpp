@@ -1,11 +1,19 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
 
 int add(int a, int b){
-    return a+b;
+    return a + b;
 }
 
 int main(){
-    cout << "5 + 3 =" << add (5, 3) << endl;
+    int first;
+    cin >> first ;
+    int second;
+    cin>> second;
+
+    cout<< add(first, second)<< endl;
+
+
+
     return 0;
 }
