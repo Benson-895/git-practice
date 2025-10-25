@@ -13,10 +13,5 @@ int main(){
 
     cout<< add(first, second)<< endl;
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> python-feature
     return 0;
 }
